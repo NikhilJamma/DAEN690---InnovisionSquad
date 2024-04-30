@@ -32,6 +32,19 @@ To explore this project and its findings, follow these steps:
 2. Navigate to the `data` folder to access the dataset.
 3. Explore the `code` folder to review the scripts and Jupyter Notebook files detailing the data preprocessing, model training, and evaluation processes.
 
+To run the code:
+
+1. Start by executing the main code file `RNN_GAN.ipynb`. This notebook requires support from two additional files:
+   - `model_train.py` contains the main GAN model code.
+   - `utils.py` provides essential functions, including `random_generator` for generating noise.
+  
+## Visualizations
+
+In the `visualizations` folder, you'll find graphical representations including:
+
+1. Histograms depicting Along Track Distances between real and synthetic data and each point distances between synthetic and real data.   
+2. Visual comparisons of real and synthetic flight tracks, presented as images generated using Tableau.
+
 ## Conclusion
 The Synthetic Flight Tracks Generation project offers a promising approach to enhancing Air-to-air collision Risk Modeling (CRM) by generating synthetic flight tracks using GANs. By leveraging historic data and advanced machine learning techniques, we aim to provide valuable insights for the aviation industry.
 
